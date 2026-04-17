@@ -18,7 +18,7 @@ def index():
 def predict():
     try:
         N = float(request.form['Nitrogen'])
-        P = float(request.form['Phosporus'])
+        P = float(request.form['Phosphorus'])
         K = float(request.form['Potassium'])
         temp = float(request.form['Temperature'])
         humidity = float(request.form['Humidity'])
